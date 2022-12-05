@@ -1,0 +1,8 @@
+string=input("Enter:")
+b=len(string)
+if b==0:
+    print("String is empty")
+elif b==1:
+    print(string)
+else:
+    print(string[-1]+string[1:-1]+string[0])
